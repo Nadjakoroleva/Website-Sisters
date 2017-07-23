@@ -27,16 +27,39 @@
 
 <nav>
   <ul class="main-nav">
-    <li><a href="">О Центре</a></li>
-    <li><a href="">Нужно знать</a></li>
-    <li><a href="">Получить помощь</a></li>
-    <li><a href="">Наши проекты</a></li>
-    <li class="sos"><a href="">Помочь</a></li>
+    <li><a href="about.html">О Центре</a></li>
+    <li><a href="need-to-know.html">Нужно знать</a></li>
+    <li><a href="get-help.html">Получить помощь</a></li>
+    <li><a href="projects.html">Наши проекты</a></li>
+    <li class="sos"><a href="help.html">Помочь</a></li>
     <li><a href="contacts.html">Контакты</a></li>
   </ul>
 </nav>
 
-
+<section>
+  <div class="contacts">
+    <p>Контакты</p>
+    </div>
+    <div class="contacts-columns">
+      <div class="col-1">
+        <p>Вы всегда можете позвонить нам<br>или написать через форму обратной связи</p>
+        <p>+7 (499) 901 02 01</p>
+        <p>sisters@sisters-help.ru</p>
+        <p>Юридическая информация здесь</p>
+        <p>Информация для прессы здесь</p>
+      </div>
+      <div class="col-2">
+        <form action="/echo" method="post">
+            <input type="text" id="name" name="name" placeholder="Ваше имя">
+            <input type="email" id="email" name="email" placeholder="Ваш email">
+            <input type="text" id="message" name="message" placeholder="Ваше сообщение" required>
+          <div class="buttons">
+              <input type="submit" value="Отправить">
+          </div>
+          </form>
+      </div>
+    </div>
+  </section>
 
 <footer>
   <ul class="footer">
