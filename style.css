@@ -201,3 +201,44 @@ li:hover {
 .footerPhone li:nth-child(2) {
   margin-top: 10px;
 }
+
+/*contacts*/
+.contacts {
+  font-size: 30px;
+  margin-left: 180px;
+  margin-top: 65px;
+  border-bottom: 4px solid #F0F5FA;
+  margin-right: 175px;
+}
+
+.contacts-columns {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 120px;
+}
+
+.col-1 {
+  font-size: 20px;
+  margin-left: 180px;
+}
+
+.col-1 p:nth-child(2) {
+  font-size: 30px;
+}
+
+.col-2 {
+  font-size: 18px;
+  margin-left: 110px;
+}
+
+input {
+  display: block;
+  padding: 17px 100px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  border: 1px solid black;
+}
+
+input[id="message"] {
+  padding: 50px 100px;
+}
