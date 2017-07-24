@@ -140,7 +140,6 @@ li:hover {
 .button {
   background-color: #A6ADB4;
   color: black;
-  font-weight: 700;
   width: 300px;
   margin-right: auto;
   margin-left: auto;
@@ -241,4 +240,24 @@ input {
 
 input[id="message"] {
   padding: 50px 100px;
+}
+
+input[type="submit"] {
+  background-color: #A6ADB4;
+  color: black;
+  font-weight: 700;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  border-style: none;
+}
+
+input[type="submit"]:hover {
+  color: #7e8689;
+  cursor: pointer;
 }
