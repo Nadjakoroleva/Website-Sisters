@@ -240,6 +240,7 @@ input {
 
 input[id="message"] {
   padding: 50px 100px;
+  text-align: left;
 }
 
 input[type="submit"] {
@@ -261,3 +262,8 @@ input[type="submit"]:hover {
   color: #7e8689;
   cursor: pointer;
 }
+
+:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
