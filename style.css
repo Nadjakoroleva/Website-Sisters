@@ -231,9 +231,9 @@ li:hover {
   margin-top: 6px;
 }
 
-.col-2 p:first-child{
+/*.col-2 p:first-child{
   text-align: right;
-}
+}*/
 
 input {
   display: block;
@@ -289,4 +289,8 @@ input[type="submit"]:hover {
   margin-left: 140px;
   margin-bottom: 65px;
   margin-top: -210px;
+}
+
+.thanks {
+  padding-bottom: 300px;
 }
