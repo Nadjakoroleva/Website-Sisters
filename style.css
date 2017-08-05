@@ -156,6 +156,22 @@ li:hover {
   cursor: pointer;
 }
 
+.button__help {
+  background-color: #A6ADB4;
+  color: black;
+  width: 130px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 12px 5px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.button__help:hover {
+  color: #7e8689;
+  cursor: pointer;
+}
 
 .footer {
   display: flex;
@@ -293,4 +309,23 @@ input[type="submit"]:hover {
 
 .thanks {
   padding-bottom: 300px;
+}
+
+/*about.html*/
+.about p:first-child {
+  font-size: 30px;
+  border-bottom: 4px solid white;
+  margin-right: 400px;
+  padding-bottom: 15px;
+}
+
+.about p {
+  font-size: 18px;
+}
+
+.about {
+  border-left: 4px solid white;
+  margin-left: 250px;
+  padding-left: 25px;
+  margin-bottom: 50px;
 }
